@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.hide {
+  display: none;
+}
+
+.car {
+  width: 80px;
+  height: 100px;
+
+  position: absolute;
+  bottom: 120px;
+  background-image: url("./images/don-new.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.enemy {
+  width: 70px;
+  height: 100px;
+
+  position: absolute;
+  bottom: 120px;
+  background-image: url("./images/police-new.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.lines {
+  width: 10px;
+  height: 100px;
+  background: #fff;
+  position: absolute;
+  margin-left: 195px;
+}
+
+.gameArea {
+  width: 400px;
+  height: 100vh;
+  background: rgb(26, 23, 23);
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.score {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 150px;
+  padding: 35px;
+  background: #14565e;
+  color: #fff;
+  text-align: center;
+  height: 0px;
+  box-shadow: 0 5px 5px #777;
+}
+
+.startScreen {
+  position: absolute;
+  background-color: tomato;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+  border: 1px solid #0e6b57;
+  padding: 15px;
+  margin: auto;
+  width: 50%;
+  cursor: pointer;
+  letter-spacing: 5;
+  font-size: 20px;
+  word-spacing: 3;
+  text-transform: uppercase;
+  box-shadow: 0 5px 5px #777;
+}
